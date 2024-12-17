@@ -45,6 +45,7 @@ nav {
 }
 
 .uls > li {
+    cursor: pointer;
     list-style: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -80,6 +81,7 @@ nav {
 .sidebar li {
     padding: 15px 10px;
     color: white;
+    cursor: pointer;
 }
 
 .sidebar .Sign {
@@ -186,10 +188,12 @@ color:#969696;
     width: fit-content;
     border: none;
     outline: none;
+    cursor: pointer;
+    padding: 10px;
     -webkit-appearance: none; 
     -moz-appearance: none;   
     appearance: none; 
-    font-size: 18px;
+    font-size: 16px;
    color: #969696;
     font-family: "Inter", sans-serif;
 
